@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
     </head>
     <body>
+    <p>Bonjour, Logguer vous avec vos informations</P>
         <div id="container">
             <!-- zone de connexion -->
             
