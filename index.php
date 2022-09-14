@@ -4,10 +4,11 @@
         <!-- importer le fichier de style -->
         <link rel="stylesheet" href="CSS/style.css" media="screen" type="text/css" />
 
-    </head>
+    </head> 
+    <a href='Inscription.php' style="inscription">Inscription</a>
     <body>
     <p>Bonjour, Logguer vous avec vos informations</P>
-    <a href='Inscription.php'>Inscription</a>
+   
 
         <div id="container" class="formulaire">
             <!-- zone de connexion -->
@@ -20,8 +21,8 @@
 
                 <label><b>Mot de passe</b></label>
                 <input type="password" placeholder="Entrer le mot de passe" name="password" required>
-
-                <input type="submit" id='submit' value='LOGGUER MOI' >
+                <br>
+                <input type="submit" id='submit' value='Login' >
                 
                 <?php
                 
