@@ -16,9 +16,8 @@ body{
 
 form{
     border:2px white solid;
-    
+
     padding-bottom: 10%;
-    padding-right: 20px;
 }
 
 label{
@@ -26,8 +25,9 @@ label{
     flex-direction: column;
 }
 
-.inscription{
+.inscription {
 
-    margin: right;
+    float: right;
+    color:white;
 
 }

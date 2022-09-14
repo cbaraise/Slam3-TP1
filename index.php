@@ -5,9 +5,12 @@
         <link rel="stylesheet" href="CSS/style.css" media="screen" type="text/css" />
 
     </head> 
-    <a href='Inscription.php' style="inscription">Inscription</a>
+    
+
+    <a href='Inscription.php' class='inscription'>Inscription</a>
+   
     <body>
-    <p>Bonjour, Logguer vous avec vos informations</P>
+    <p style="color:orange">Bonjour, Logguer vous avec vos informations</P>
    
 
         <div id="container" class="formulaire">
