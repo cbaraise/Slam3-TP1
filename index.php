@@ -2,12 +2,14 @@
     <head>
        <meta charset="utf-8">
         <!-- importer le fichier de style -->
-        <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+        <link rel="stylesheet" href="CSS/style.css" media="screen" type="text/css" />
+
     </head>
     <body>
     <p>Bonjour, Logguer vous avec vos informations</P>
+    <a href='Inscription.php'>Inscription</a>
 
-        <div id="container">
+        <div id="container" class="formulaire">
             <!-- zone de connexion -->
             
             <form action="verification.php" method="POST">
@@ -20,7 +22,9 @@
                 <input type="password" placeholder="Entrer le mot de passe" name="password" required>
 
                 <input type="submit" id='submit' value='LOGGUER MOI' >
+                
                 <?php
+                
                 // Code de vérification 
                 ?>
             </form>
