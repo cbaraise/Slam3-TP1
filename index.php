@@ -29,7 +29,7 @@
                 
                 <?php
                 
-                // Code de vérification 
+                // Code de vérification du login mdp
                 ?>
             </form>
         </div>
