@@ -28,8 +28,10 @@
                 <input type="submit" id='submit' value='Login' >
                 
                 
-                <?php
 
+               
+                <?php
+                    
               
                 
                 // Code de vérification du login mdp

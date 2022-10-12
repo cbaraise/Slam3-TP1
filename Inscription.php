@@ -6,8 +6,12 @@
 
     </head> 
     
-
-    <a href='Inscription.php' class='inscription'>Inscription</a>
+    
+       <a href='Inscription.php' class='inscription'>Inscription</a>
+        <br>
+        <a href='index.php' class='connexion'>Connexion</a>
+    
+   
    
     <body>
     <p style="color:orange">Bonjour, Logguer vous avec vos informations</P>
@@ -16,20 +20,24 @@
         <div id="container" class="formulaire">
             <!-- zone de connexion -->
             
-            <form action="verification.php" method="POST">
-                <h1>Connexion</h1>
+            <form action="ConnecInscription.php" method="POST">
+                <h1>Inscription</h1>
                 
-                <label><b>Nom d'utilisateur</b></label>
+                <label><b>Nom d'utilisateur :</b></label>
                 <input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required>
+                <label><b>Adresse mail :</b></label>
+                <input type="email" placeholder="Entrer votre adresse mail" name="mail" required>
 
-                <label><b>Mot de passe</b></label>
-                <input type="password" placeholder="Entrer le mot de passe" name="password" required>
+                <label><b>Mot de passe :</b></label>
+                <input type="password" placeholder="Entrer le mot de passe" name="mdp" required>
                 <br>
-                <label><b>Confirmé le Mot de passe</b></label>
-                <input type="password-2" placeholder="Entrer le mot de passe" name="password-2" required>
+                <label><b>Confirmer le Mot de passe :</b></label>
+                <input type="password" placeholder="Entrer le mot de passe" name="mdp2" required>
                 <br>
                 <input type="submit" id='submit' value='Inscription' >
                 
+
+        
                 <?php
                 
                 // Code de vérification du login mdp
