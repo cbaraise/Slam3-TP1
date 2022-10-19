@@ -23,12 +23,9 @@ else{
         $requete->bindValue(':mdp', $mdp , PDO::PARAM_STR);
         $requete->execute();
         
-
-        
+       
         header('Location:index.php');
-
-        echo '<div style="text-align:center;border:green 2px solid ;border-radius:20px;margin-right:15%;margin-left:15%"><h2 style="color:red">Compte crée avec succès ! </h2></div> ';
-
+       
     
 
         
