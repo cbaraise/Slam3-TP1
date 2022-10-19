@@ -3,10 +3,6 @@
 <?php
 
 
-
-
-
-
 $user='root';
 $pass='';
 if (isset($_POST['username'])) {$username=$_POST['username'];}
@@ -28,13 +24,14 @@ try {
     }
     else{
       
+       
         
-        
-        if((($count['MDP'] == $password ) && (isset($count['MDP'] )))){
+        if((($count['MDP'] == $password ))){
         
         
         $_SESSION['identifiant']= $username;
         header('Location:accueil.php');
+        
         
         
         }
